@@ -414,11 +414,12 @@ aside
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1.25fr 1fr;
     height: 380px;
+    margin-bottom: 25px;
 }
 
 .figure-activites
 {  
-   box-shadow:  0 0 40px #F2F2F2;
+   box-shadow:  10px 10px 3px #F2F2F2;
    margin: 10px;
    border-radius: 15px;
    display: flex;
@@ -483,7 +484,8 @@ footer
 {
     background-color: #F2F2F2;
     width: 100%;
-    display: flex;    
+    display: flex;   
+    margin-top: 10px; 
 }
 
 .liste-footer
@@ -559,6 +561,7 @@ and (-webkit-min-device-pixel-ratio:2)
      font-size: 30px;
  }
  
+ /*SEARCH SECTION */
 .title-searchsection
 {margin-bottom: 0px; font-size: 30px; margin-right: 180px; line-height: 40px;}
 
@@ -567,9 +570,17 @@ and (-webkit-min-device-pixel-ratio:2)
 
 .searchbar
 {font-size: 40px; padding: 40px 0px 40px 40px;}
+.headernav
+{display: grid; grid-template-columns: 1fr 1fr;grid-template-rows: 3fr 1fr; margin-top: 70px;}
 
+.linav:nth-child(3)
+{grid-column-start: 2; grid-column-end: 3;grid-row-start: 1;}
+.linav:nth-child(1)
+{grid-column-start: 1;grid-column-end: 2;grid-row-start: 2;grid-row-end: 3;}
+.linav:nth-child(2)
+{grid-column-start: 2;grid-column-end: 3;grid-row-start: 2;grid-row-end: 3;}
 .searchFormWrapiconIcon
-{font-size: 2em; padding:40px;background-color: #f1f1f1;border-radius: 30px 0px 0px 30px;}
+{font-size: 2em; padding:25px;background-color: #f1f1f1;border-radius: 30px 0px 0px 30px;margin: auto;}
 .filtres-container
 {margin-top: 50px;}
 
@@ -585,11 +596,14 @@ and (-webkit-min-device-pixel-ratio:2)
 {height: 60px; padding: 13px 13px 13px 0px; border-radius: 45px;
     border-width:4px 4px 4px 0px; margin-bottom: 20px;}
 
-.fa, .fas
+    .fa-money-bill-wave,  .fa-child, .fa-heart, .fa-dog
 {font-size: 30px; padding: 30px; margin-right: 15px;}
 
 .filtres-title
 {margin:50px 600px 20px 0px; font-size: 30px;}
+/*SEARCH SECTION */
+
+/*HEBERGEMENT SECTION */
 
 .section-hebergements
 {display: block;}
@@ -598,10 +612,11 @@ and (-webkit-min-device-pixel-ratio:2)
 {display: block;}
 
 .hebergements
-{background-color: white;}
+{background-color: white; max-width: 100%;}
 
-
+.fighebergements
+{ box-shadow:  10px 10px 3px #F2F2F2;}
 .hebergements-images
-{border-radius: 30px 30px;}
+{border-radius: 30px 30px 0px 0px;}
 
 }
