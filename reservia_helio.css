@@ -248,7 +248,7 @@ i~p
 figcaption>h3
 {
     margin-top: 5px;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom:0px;
 }
 
@@ -393,6 +393,7 @@ aside
   display:flex;
   height:100%;
   flex-direction: column;
+  padding: 0px 0px 10px 10px;
 }
 
 .lespluspopulaires-images
