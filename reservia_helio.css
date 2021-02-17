@@ -468,6 +468,10 @@ height: 80%
     grid-template-rows: 1fr;
 }
 
+.artice3_figcaption
+{
+    height: 40px;
+}
 
 
 /* Section3 */
