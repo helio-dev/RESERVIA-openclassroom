@@ -544,8 +544,8 @@ footer
 /* IPHONE8 screen 750PX */
 
 @media only screen 
-and (min-device-width:375px)
-and (max-device-width: 900px)
+and (min-width:375px)
+and (max-width: 900px)
 and (-webkit-min-device-pixel-ratio:2)
 
 {
@@ -564,7 +564,7 @@ and (-webkit-min-device-pixel-ratio:2)
 
  .linav
  {
-     font-size: 30px;
+     font-size: 14px;
  }
  
  /*SEARCH SECTION */
@@ -577,7 +577,7 @@ and (-webkit-min-device-pixel-ratio:2)
 .searchbar
 {font-size: 40px; padding: 40px 0px 40px 40px;}
 .headernav
-{display: grid; grid-template-columns: 1fr 1fr;grid-template-rows: 3fr 1fr; margin-top: 70px;}
+{display: grid; grid-template-columns: 1fr 1fr;grid-template-rows: 3fr 1fr; margin-top: 50px;}
 
 .linav :hover
 {box-sizing: content-box; width: 100%;
@@ -592,7 +592,7 @@ and (-webkit-min-device-pixel-ratio:2)
 
 .linav:nth-child(3)
 {grid-column-start: 2; grid-column-end: 3;grid-row-start: 1;
-padding-left: 250px;}
+padding-left: 25px;}
 .searchFormWrapiconIcon
 {font-size: 2em; padding:25px;background-color: #f1f1f1;border-radius: 30px 0px 0px 30px;margin: auto;}
 .filtres-container
