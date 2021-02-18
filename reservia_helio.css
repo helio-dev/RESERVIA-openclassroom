@@ -577,7 +577,7 @@ and (-webkit-min-device-pixel-ratio:2)
 .searchbar
 {font-size: 40px; padding: 40px 0px 40px 40px;}
 .headernav
-{display: grid; grid-template-columns: 1fr 1fr;grid-template-rows: 3fr 1fr; margin-top: 50px;}
+{padding-inline-start: 0px;display: grid; grid-template-columns: 1fr 1fr;grid-template-rows: 3fr 1fr; margin-top: 50px;}
 
 .linav :hover
 {box-sizing: content-box; width: 100%;
