@@ -553,7 +553,6 @@ and (-webkit-min-device-pixel-ratio:2)
  .body
  {margin: 15px;}   
  .header
- {height: 120px;}
  
  .headerlogo
  {width: 30%;}
@@ -574,10 +573,12 @@ and (-webkit-min-device-pixel-ratio:2)
  
  /*SEARCH SECTION */
 .title-searchsection
-{margin-bottom: 0px; font-size: 40px; margin-right: 180px; line-height: 40px; margin-top: 80px;}
+{margin-bottom: 0px;
+font-size: 18px; 
+margin-top: 50px;}
 
 .p-searchsection
-{margin-top: 25px; font-size: 13px;margin-bottom: 50px;}
+{margin-top: 7px; font-size: 14px;margin-bottom: 50px;}
 
 .searchbar
 {font-size: 40px; padding: 40px 0px 40px 40px;}
