@@ -650,7 +650,8 @@ font-size: 18px;}
 /*HEBERGEMENT SECTION */
 
 .section-hebergements
-{display: block;}
+{display: flex;
+flex-direction: column-reverse;}
 
 .figurecontainer
 {display: block;}
