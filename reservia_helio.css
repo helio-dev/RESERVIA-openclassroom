@@ -719,3 +719,13 @@ and (-webkit-min-device-pixel-ratio:2)
 /* SECTION FOOTER */
 }
 
+@media only screen 
+and (min-width:768px)
+and (max-width: 1024px)
+and (-webkit-min-device-pixel-ratio:2)
+
+{
+    body
+    {background-color: yellow;} 
+
+}
