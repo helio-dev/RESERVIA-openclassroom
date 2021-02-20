@@ -648,7 +648,10 @@ font-size: 18px;}
 /*SEARCH SECTION */
 
 /*HEBERGEMENT SECTION */
-
+.aside-title
+{font-size: 18px;}
+.hebergement-title
+{font-size: 18px;}
 .section-hebergements
 {display: flex;
 flex-direction: column-reverse;}
@@ -665,3 +668,30 @@ flex-direction: column-reverse;}
 {border-radius: 30px 30px 0px 0px;}
 
 }
+
+/* SECTION ACTIVITE */
+.figbox
+{display: flex;
+flex-direction: column;}
+/* SECTION ACTIVITE */
+
+/* SECTION FOOTER */
+footer
+{flex-direction: column;
+}
+
+.megadiv
+{
+    padding: 30px 0px 0px 0px;
+}
+
+.megadiv:nth-child(2)
+{
+    margin-left: 0px;
+}
+
+.megadiv:nth-child(3)
+{
+    margin-left: 0px;
+}
+/* SECTION FOOTER */
