@@ -719,13 +719,40 @@ and (-webkit-min-device-pixel-ratio:2)
 /* SECTION FOOTER */
 }
 
+/* (-(-_(-_-)_-)-) */
+/* IPAD */
 @media only screen 
 and (min-width:768px)
 and (max-width: 1024px)
 and (-webkit-min-device-pixel-ratio:2)
 
 {
-    body
-    {background-color: yellow;} 
+    .header    
+    {height: 150px;
+    }
+    .headerlogo
+    {margin-left: 253px;}
 
+    .linav
+    {padding: 12px;
+    box-shadow: 9px 1px 99px -4px grey;
+    border: 2px grey solid;
+    border-radius: 11px;}
+
+    .linav:nth-child(1),.linav:nth-child(2)
+    {border-bottom: none;}
+
+    .headernav
+    {display: flex;
+    justify-content: space-evenly;
+    margin-top: 145px;
+    }
+
+    /* HEADER */
+
+    /*SEARCH SECTION*/
+    .title-searchsection
+    {font-size: 21px; left: 100px;
+    position: relative;        
+    }
 }
