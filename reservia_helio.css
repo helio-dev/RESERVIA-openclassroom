@@ -781,17 +781,35 @@ and (max-width: 1024px)
       }
       
       /* Track */
-      ::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
         background: #f1f1f1;
       }
       
       /* Handle */
-      ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         ;
         background: #d2d2d2;
       }
       
       /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: #0065FC;
+    ::-webkit-scrollbar-thumb:hover {
+        background: #0065FC;}
+    /*Scrollbar */
+
+    /*ASIDE*/
+    aside
+    {
+        margin-top: 1em;
+        max-width: 100%;
+    }
+
+    .figure-aside-container
+    {display: flex;}
+
+    .figureaside
+    {
+        width: 30%;
+        height: 7em;
+    }
+    /*ASIDE*/
 }
