@@ -42,13 +42,15 @@ p
 .headernav
 {
     position: absolute ;
-    right: 20px;
-    top: 30px;    
+    right: 0px;
+    top: 30px; 
+    width: 30%;
+    white-space: nowrap;   
 }
 .linav 
 {
     display: inline;
-    margin-left: 20px;   
+    margin-left: 40px;   
     font-size: 12px;   
 }
 
@@ -758,7 +760,8 @@ and (max-width: 1024px)
    {display: block;}
 
     .hebergements
-    {max-width: 100%;}
+    {max-width: 100%;
+    margin-right: 0px;}
     .figurecontainer
     {overflow-x: scroll;
     overflow-y: hidden;
@@ -808,7 +811,7 @@ and (max-width: 1024px)
 
     .figureaside
     {
-        width: 30%;
+        width: 28%;
         height: 7em;
     }
     /*ASIDE*/
