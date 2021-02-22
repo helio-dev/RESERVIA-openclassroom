@@ -747,8 +747,27 @@ and (max-width: 1024px)
     /*SEARCH SECTION*/
     .title-searchsection
     {font-size: 21px; left: 100px;
-        
+    margin-top: 0px;
+
     }
 
+    /* Search section */
+
+    /* section hebergement */
+   .section-hebergements
+   {display: block;}
+
+    .hebergements
+    {max-width: 100%;}
+    .figurecontainer
+    {overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: block;}
+    .fighebergements
+    {
+        display: inline-block;
+        width: 30%;
+    }
     
 }
