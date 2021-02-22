@@ -127,6 +127,10 @@ h1
     font-size: 0.8em;
 }
 
+.searchFormSubmitinputIcon
+{
+    display: none;
+}
 .bluestar
 {
     color:#0965fb;
@@ -544,9 +548,8 @@ footer
 /* IPHONE8 screen 750PX */
 
 @media only screen 
-and (min-width:375px)
-and (max-width: 900px)
-and (-webkit-min-device-pixel-ratio:2)
+and (max-width: 650px)
+
 
 {
 
@@ -645,7 +648,8 @@ and (-webkit-min-device-pixel-ratio:2)
 
     .fa-search
     {font-size: 18px;
-    position: absolute;}
+    position: absolute;
+    }
 
     .filtres-container
     {flex-wrap: wrap;
@@ -720,39 +724,37 @@ and (-webkit-min-device-pixel-ratio:2)
 }
 
 /* (-(-_(-_-)_-)-) */
-/* IPAD */
+/* tablette */
 @media only screen 
-and (min-width:768px)
+and (min-width:651px)
 and (max-width: 1024px)
-and (-webkit-min-device-pixel-ratio:2)
 
 {
     .header    
-    {height: 150px;
+    {height: auto;
     }
     .headerlogo
-    {margin-left: 253px;}
-
-    .linav
-    {padding: 12px;
-    box-shadow: 9px 1px 99px -4px grey;
-    border: 2px grey solid;
-    border-radius: 11px;}
-
-    .linav:nth-child(1),.linav:nth-child(2)
-    {border-bottom: none;}
+    {position:relative;
+    margin-left: 66px;
+    top: 0px;}
 
     .headernav
     {display: flex;
-    justify-content: space-evenly;
-    margin-top: 145px;
-    }
+    flex-direction: column;
+    margin-top: 0px;
+    position: fixed;
+    top: 46px;
+    right: 81px;}
+
 
     /* HEADER */
 
     /*SEARCH SECTION*/
     .title-searchsection
     {font-size: 21px; left: 100px;
-    position: relative;        
+    position: relative;  
+    margin-top: 0px;      
     }
+
+    
 }
