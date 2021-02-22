@@ -735,25 +735,19 @@ and (max-width: 1024px)
     }
     .headerlogo
     {position:relative;
-    margin-left: 66px;
-    top: 0px;}
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 20%;
+    top: 0px;
+    }
 
-    .headernav
-    {display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    position: fixed;
-    top: 46px;
-    right: 81px;}
-
-
+    
     /* HEADER */
 
     /*SEARCH SECTION*/
     .title-searchsection
     {font-size: 21px; left: 100px;
-    position: relative;  
-    margin-top: 0px;      
+        
     }
 
     
