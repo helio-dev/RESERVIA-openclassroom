@@ -763,11 +763,35 @@ and (max-width: 1024px)
     {overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    display: block;}
+    display: block;
+    padding-bottom: 0px;
+    margin-bottom: 10px;}
+
     .fighebergements
     {
         display: inline-block;
-        width: 30%;
+        width: 28%;
+        height: 10em;
     }
-    
+
+    /* scrollbar */
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 4px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        ;
+        background: #d2d2d2;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #0065FC;
 }
