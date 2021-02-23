@@ -180,6 +180,10 @@ h1
     margin-left: 0px;
 }
 
+
+.filtres:hover
+{  transform: translateY(4px);}
+
 .filtres-title
 {
     margin-right: 20px;
@@ -376,6 +380,7 @@ aside
     padding: 5px;
     margin: 10px;
     display: flex;
+    height: 7em;
 }
 
 .p-aside
@@ -667,6 +672,11 @@ and (max-width: 650px)
     border-radius: 45px;
     border-width:2px 2px 2px 0px;
     margin-bottom: 20px;}
+
+    .filtres:hover
+    {background-color: red;
+    color: yellow;
+    border: 2px solid black;}
     
     .fa-money-bill-wave,  .fa-child, .fa-heart, .fa-dog
     {font-size: 18px;
