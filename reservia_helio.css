@@ -36,20 +36,25 @@ p
 {
     height: 60px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .headerlogo
 {
  width: 7%;  
- position: absolute;
- top: 30px; 
+ position: relative;
+ top: 0px; 
+ 
 }
 
 .headernav
 {
-    position: absolute ;
+    position: relative ;
     right: 0px;
-    top: 30px; 
+    top: 0px; 
     width: 30%;
     white-space: nowrap;   
 }
@@ -614,6 +619,11 @@ and (max-width: 650px)
     {margin-bottom: 0px;
     font-size: 18px; 
     margin-top: 50px;}
+    
+    .searchFormWrapiconIcon
+    {margin-right: 0px;
+    margin: 0px;
+    height: 20px;}
 
     .p-searchsection
     {margin-top: 7px;
@@ -629,7 +639,9 @@ and (max-width: 650px)
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
-    margin-top: 50px;}
+    margin-top: 50px;
+    width: 100%;
+    }
 
     .linav :hover
     {width: 100%;
@@ -665,7 +677,8 @@ and (max-width: 650px)
     {font-size: 18px; 
     padding:16px 17px 15px 18px;
     background-color: #f1f1f1;
-    border-radius: 14px;margin: auto;}
+    border-radius: 14px;
+    }
 
     .filtres-container
     {margin-top: 50px;}
@@ -710,9 +723,7 @@ and (max-width: 650px)
     margin-bottom: 20px;}
 
     .filtres:hover
-    {background-color: red;
-    color: yellow;
-    border: 2px solid black;}
+    {transform: translateY(4px);}
     
     .fa-money-bill-wave,  .fa-child, .fa-heart, .fa-dog
     {font-size: 18px;
