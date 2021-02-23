@@ -9,6 +9,12 @@ body
     margin: auto;
 }
 
+.searchbutton i
+{
+    display: none;
+}
+
+/* Header en display flex pour aligner nav avec logo reservia */
 
 .bloc-page
 {
@@ -273,7 +279,7 @@ h3+p
 
 .hebergement-title
 {
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 10px;
 }
 
@@ -449,7 +455,9 @@ aside
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    
 }
+
 .figure-activites:nth-child(5)
 {
     grid-column-start: 4;
@@ -464,17 +472,41 @@ aside
     grid-row-end:3 ;
     grid-column-start:3;
     grid-column-end:4;
+
+}
+
+.activites-title
+{
+    font-size: 14px;
 }
 .activites-images
 {
     background-size: cover;
 width: 100%;
 border-radius: 15px 15px 0px 0px;
-height: 80%
 }
 
-.activites-images:nth-child(1),.activites-images:nth-child(4)
-{height: 90%;}
+.ilesdufrioul-image
+{height: 68%;}
+
+.vieuxport-image
+{height: 85% ;}
+
+.fortdepomegues-image
+{height: 76% ;}
+
+.parcnationaldescalanques-image
+{height: 85% ;}
+
+.notredamedelagarde-image
+{height: 76% ;}
+
+.parclongchamp-image
+{height: 70% ;}
+
+
+
+
 .article3
 {
     display: grid;
