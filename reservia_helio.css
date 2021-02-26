@@ -311,6 +311,7 @@ p+i
 {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    
 }
 
 .hebergements-images
@@ -406,6 +407,7 @@ aside
 {
     width: 100%;
     border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
 }
 .aside-title
 {
@@ -593,7 +595,7 @@ footer
 
 
 /* MEDIA QUERIES */
-/* IPHONE8 screen 750PX */
+/* IPHONE8 */
 
 @media only screen 
 and (max-width: 650px)
@@ -880,6 +882,8 @@ and (max-width: 1024px)
     .figureaside
     {
         height: 7em;
+        ;
+
     }
     /*ASIDE*/
 }
