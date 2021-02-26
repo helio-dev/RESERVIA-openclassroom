@@ -427,6 +427,7 @@ aside
 .lespluspopulaires-images
 {
     width: 40%;
+    object-fit: cover;
 }
 .starcontainer
 {
